@@ -5,7 +5,7 @@ except ModuleNotFoundError:
 	exit()
 import time
 
-led = 11 
+led = input("Please Input Led '+' Pin: ")
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(led,GPIO.OUT)
